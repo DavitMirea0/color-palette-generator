@@ -1,0 +1,47 @@
+.home-view {
+  text-align: center;
+  padding: 2rem;
+}
+.home-view h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+.home-view p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.feature-card h3 {
+  color: #42b883;
+  margin-bottom: 0.5rem;
+}
+.cta {
+  margin-top: 2rem;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn.primary {
+  background: #42b883;
+  color: white;
+}
+.btn.primary:hover {
+  background: #3aa876;
+}

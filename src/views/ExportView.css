@@ -1,0 +1,27 @@
+.export-view h2 {
+  margin-bottom: 1rem;
+}
+.format-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.format-selector label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.code-output {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre;
+  font-size: 0.95rem;
+}
+.copy-btn {
+  margin-top: 1rem;
+}

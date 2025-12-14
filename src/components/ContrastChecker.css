@@ -1,0 +1,46 @@
+.contrast-checker {
+  background: #e9ecef;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.contrast-checker h3 {
+  margin-bottom: 1rem;
+}
+.contrast-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.color-pair {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sample {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+.sample.fg {
+  border: 2px solid #333;
+}
+.level-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.level-badge.aa {
+  background: #ffc107;
+  color: #212529;
+}
+.level-badge.aaa {
+  background: #28a745;
+  color: white;
+}
+.level-badge.fail {
+  background: #dc3545;
+  color: white;
+}

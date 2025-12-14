@@ -1,0 +1,11 @@
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.color-picker input[type="color"] {
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
